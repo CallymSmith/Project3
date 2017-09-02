@@ -1,0 +1,140 @@
+* {
+	font-family: 'Pontano Sans', sans-serif;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: white;
+	opacity: .8;
+	color: black;
+}
+
+/*GENERAL SETTINGS*/
+
+form{
+	border-top: 4px solid black;
+}
+
+fieldset {
+	border: 0;
+}
+
+legend {
+	font-size: 1.75em;
+	font-weight: 700;
+	padding: 30px 0 10px 10px;
+	margin-top: 0;
+	width: 100%;
+	float: left;
+}
+
+label {
+	padding: 5px 0 5px 0;
+	margin: 5px 0;
+	display: inline-block;
+	font-weight: 600;
+	text-shadow: 1px 1px #7e7e7e;
+}
+
+
+textarea:focus,
+input:focus {
+	background-color: lightgrey;
+	transition: 1s;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+	padding: 20px;
+	text-transform: capitalize;
+	font-size: 1.75em;
+	margin: 0;
+	background-color: black;
+}
+
+header:first-child,
+footer,
+#signup {
+	text-align: center;
+}
+
+#intro {
+	padding: 0 10px 30px;
+	border-bottom: 4px solid black;
+}
+
+/*FORM SETTINGS*/
+
+input[type=text], 
+input[type=email], 
+input[type=tel],
+select {
+	width: 100%;
+	height: 60px;
+	border-radius: 10px;
+	margin: 0;
+	padding: 7px;
+	font-size: 1.15em;
+	color: #7e7e7e;
+}
+
+h2 {
+	padding: 10px;
+	margin: 15px 5px 0;
+}
+
+#zip {
+	margin-bottom: 20px;
+	width: 50%;
+}
+
+::-webkit-input-placeholder {
+   text-align: right;
+}
+
+button {
+	color: #FFF;
+	background-color: #4ebbb5;
+	width: 100%;
+	font-size: 18px;
+	text-align: center;
+	font-style: normal;
+	padding: 19px 39px 18px 39px;
+	border-radius: 5px;
+	height: 60px;
+	border: none;
+	margin-bottom: 10px;
+  }
+
+  textarea{
+	  width: 100%;
+	  background-color: lightgrey;
+  }
+
+  input[type=checkbox], 
+  input[type=radio] {
+	  margin-right: 10px;
+  }
+
+  @media (min-width: 768px){
+	#wrap {
+		margin: 0 auto;
+		max-width: 600px;
+	  }
+
+	#contact label {
+		width: 150px;
+		line-height: 60px;
+		display: inline-block;
+	  }
+
+	  input[type="text"],
+	  input[type="email"],
+	  input[type="tel"],
+	  #state,
+	  select {
+		width: 400px;
+		display: inline-block;
+	  }
+  }
