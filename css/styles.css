@@ -137,4 +137,8 @@ button {
 		width: 400px;
 		display: inline-block;
 	  }
+
+	  #linebreak{ 
+		  content: ' '; 
+		}
   }
